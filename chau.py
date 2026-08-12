@@ -1,3 +1,4 @@
-nombre = input("A quien queres saludar (adios para salir)" )
-print(f"Hola, {nombre}!")
-estado = input("Como estas?")
+while nombre != "hola":
+    nombre = input("A quien queres despedir (hola para salir)" )
+    print(f"Chau, {nombre}!")
+    estado = input("Como estas?")
